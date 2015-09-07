@@ -1,0 +1,16 @@
+{
+  "name": "dpd-freetext-query",
+  "version": "0.0.1",
+  "description": "A custom deployd resource type to interact with WorldCat",
+  "main": "index.js",
+  "author": {
+    "name": "Ivans Lubenko"
+  },
+  "license": "(c) Evershelf Ltd 2015, All Rights Reserved",
+  "dependencies": {
+    "debug": "^2.1.0",
+    "request": "2.51.x",
+    "xml2js": "^0.4.11"
+  },
+  "readmeFilename": "README.md"
+}
