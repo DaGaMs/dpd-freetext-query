@@ -18,15 +18,9 @@ module.exports = FreetextResource;
 FreetextResource.prototype.clientGeneration = true;
 
 FreetextResource.prototype.handle = function(ctx, next) {
-    var parts = ctx.url.split('/').filter(function(p) {
-        return p;
-    });
 
     var slf = this;
     var domain = {
-        url: ctx.url,
-        req_url: ctx.req.url,
-        parts: parts,
         query: ctx.query,
         body: ctx.body,
         requestFactory: function () { return request; },
