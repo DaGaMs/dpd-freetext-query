@@ -1,6 +1,6 @@
 {
   "name": "dpd-freetext-query",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "A custom deployd resource type to interact with WorldCat",
   "main": "index.js",
   "author": {
